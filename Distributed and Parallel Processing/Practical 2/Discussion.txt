@@ -1,0 +1,18 @@
+Dylan Smith  - 13s0714
+Date: 17 August 2016
+
+Note: **Deon Pearson** and I worked together to brainstorm various ideas
+throughout this prac. Our implementations still differ however.
+
+e)
+
+From the sample output provided, in terms of Java's tasking mechanism, it appears that each process
+receives a fairly even timeslice.  Since Producer 1 creates values between 0-100
+and Producer 2 creates values between 101-200, each process dumps their
+values into the buffer at a fairly consistent rate, with each value alternating.
+Similarly, each value is removed from the buffer by Consumer 1 and 2 and printed onto
+the console at a consistent alternating rate. This illustrates that each process
+gets fairly scheduled. In addition, we can reason that using JCSP to implement the
+Producer-Consumer problem, we can guarantee that it is free from deadlock
+and other synchronisation issues, since each process proceeds at a fairly
+consistent rate.
