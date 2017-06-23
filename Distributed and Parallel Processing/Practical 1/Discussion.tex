@@ -1,0 +1,61 @@
+\documentclass[12pt,a4paper,oneside]{article}
+
+\setlength{\textheight}{22cm}
+\setlength{\textwidth}{16cm}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\evensidemargin}{0cm}
+\setlength{\topmargin}{0cm}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.8ex}
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[normalem]{ulem}
+\usepackage{setspace}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{titlesec}
+\useunder{\uline}{\ul}{}
+\def\code#1{\texttt{#1}}
+\setcounter{secnumdepth}{4}
+\renewcommand\thesection{\arabic{section}}
+%\AtBeginDocument{\renewcommand{\bibname}{References}}
+\begin{document}
+
+  \title{
+    \\Distributed and Parallel Processing\\
+    Practical 1 Writeup
+  }
+  \author{
+    D.G. Smith - 13S0714
+  }
+  \date {1 August 2016}
+  \pagenumbering{gobble}
+  \pagenumbering{arabic}
+  \maketitle
+  \section{Mandelbrot}
+    The code changes are uppercase comments in the MandelbrotThr.java source file.
+    \\\\
+    I used \code{ExecutorService} with a fixed thread count of five then used a
+    \code{Callable} object to get the results obtained from the worker threads.
+    A \code{Future} object is then used to get the actual results. I made use of this mechanism since the results of \code{calculateMandelbrot} needed to be obtained and passed to \code{display}. This ensures that the worker thread does not call \code{display} directly but is instead executed
+    when the image starts being generated.
+    \\\\
+    The static class \code{WorkerThread} implements \code{Callable} instead
+    of \code{Runnable}. This means that \code{compute} is implemented which allows
+    a result to be returned (\code{run} does not allow a value to be returned).
+    This simplified the returning of the Mandelbrot result each time it is calculated.
+  \section{QuickSort}
+    A parallel version of quicksort was implemented by inheriting the given class from
+    \code{RecursiveAction} whilst keeping it generic. A threshold variable called
+    \code{WORKLOAD} is used to determine whether new threads should be spawned
+    using \code{fork} and \code{join} or whether to just simply keep it executing sequentially.
+    \\\\
+    In a test program, a \code{Integer} array is filled with 1 000 000
+    elements with values between zero and one thousand. The mean execution time
+    for a sequential sort is 782 ms. The mean parallel sort is 259 ms.
+    This gives a speed up of approximately 66.88\%
+\end{document}
