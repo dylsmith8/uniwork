@@ -1,0 +1,27 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>E:\Honours\Hardware Interfacing\Micro Controller\5-2_SwitchCouting</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_SwitchCouting\5-2_SwitchCouting.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_SwitchCouting\5-2_SwitchCouting.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_SwitchCouting\5-2_SwitchCouting.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_SwitchCouting\5-2_SwitchCouting.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_SwitchCouting\5-2_SwitchCouting.asm</FILE><LINE>20</LINE></START>
+  <INITIALIZE><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_SwitchCouting\5-2_SwitchCouting.asm</FILE><LINE>41</LINE></INITIALIZE>
+  <SAMPLE_DOWN><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_SwitchCouting\5-2_SwitchCouting.asm</FILE><LINE>28</LINE></SAMPLE_DOWN>
+  <SAMPLE_UP><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_SwitchCouting\5-2_SwitchCouting.asm</FILE><LINE>36</LINE></SAMPLE_UP>
+ </LABELS>
+</ASSEMBLER_INFO>

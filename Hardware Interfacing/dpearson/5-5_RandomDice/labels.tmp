@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.asm</FILE><LINE>27</LINE></START>
+  <INT0_ISR><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.asm</FILE><LINE>72</LINE></INT0_ISR>
+  <INT1_ISR><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.asm</FILE><LINE>92</LINE></INT1_ISR>
+  <TIMER0_OVF_ISR><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.asm</FILE><LINE>103</LINE></TIMER0_OVF_ISR>
+  <SETUP_PORTS><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.asm</FILE><LINE>43</LINE></SETUP_PORTS>
+  <SETUP_INTERUPTS><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.asm</FILE><LINE>57</LINE></SETUP_INTERUPTS>
+  <SETUP_TIMERS><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.asm</FILE><LINE>67</LINE></SETUP_TIMERS>
+  <MAIN_LOOP><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.asm</FILE><LINE>38</LINE></MAIN_LOOP>
+  <DELAY><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.asm</FILE><LINE>110</LINE></DELAY>
+  <LOOP1><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.asm</FILE><LINE>112</LINE></LOOP1>
+  <LOOP2><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.asm</FILE><LINE>113</LINE></LOOP2>
+  <LOOP3><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-5_RandomDice\5-5_RandomDice.asm</FILE><LINE>114</LINE></LOOP3>
+ </LABELS>
+</ASSEMBLER_INFO>

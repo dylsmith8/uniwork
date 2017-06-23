@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>E:\Honours\Hardware Interfacing\Micro Controller\5-2_MovingLED</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_MovingLED\5-2_MovingLED.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_MovingLED\5-2_MovingLED.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_MovingLED\5-2_MovingLED.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_MovingLED\5-2_MovingLED.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_MovingLED\5-2_MovingLED.asm</FILE><LINE>20</LINE></START>
+  <INITIALIZE><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_MovingLED\5-2_MovingLED.asm</FILE><LINE>60</LINE></INITIALIZE>
+  <LOOP><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_MovingLED\5-2_MovingLED.asm</FILE><LINE>28</LINE></LOOP>
+  <B0_DOWN><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_MovingLED\5-2_MovingLED.asm</FILE><LINE>36</LINE></B0_DOWN>
+  <B1_DOWN><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_MovingLED\5-2_MovingLED.asm</FILE><LINE>48</LINE></B1_DOWN>
+  <B0_UP><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_MovingLED\5-2_MovingLED.asm</FILE><LINE>43</LINE></B0_UP>
+  <B1_UP><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-2_MovingLED\5-2_MovingLED.asm</FILE><LINE>55</LINE></B1_UP>
+ </LABELS>
+</ASSEMBLER_INFO>

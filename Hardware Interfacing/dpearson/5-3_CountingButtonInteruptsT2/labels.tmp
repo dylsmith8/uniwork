@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.asm</FILE><LINE>22</LINE></START>
+  <INT0_ROUTINE><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.asm</FILE><LINE>82</LINE></INT0_ROUTINE>
+  <INT1_ROUTINE><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.asm</FILE><LINE>104</LINE></INT1_ROUTINE>
+  <SETUP><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.asm</FILE><LINE>57</LINE></SETUP>
+  <BUTTON_DOWN><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.asm</FILE><LINE>37</LINE></BUTTON_DOWN>
+  <BUTTON_UP><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.asm</FILE><LINE>52</LINE></BUTTON_UP>
+  <DELAY><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.asm</FILE><LINE>126</LINE></DELAY>
+  <DEL1><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.asm</FILE><LINE>128</LINE></DEL1>
+  <DEL2><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.asm</FILE><LINE>130</LINE></DEL2>
+  <DEL3><FILE>E:\Honours\Hardware Interfacing\Micro Controller\5-3_CountingButtonInteruptsT2\5-3_CountingButtonInteruptsT2.asm</FILE><LINE>132</LINE></DEL3>
+ </LABELS>
+</ASSEMBLER_INFO>
